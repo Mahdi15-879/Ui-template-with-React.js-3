@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Profile from "./Profile";
 import Clients from "./Clients";
 import Abilities from "./Abilities";
+import Touch from "./Touch";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Profile />
       <Clients />
       <Abilities />
+      <Touch />
     </div>
   );
 }
