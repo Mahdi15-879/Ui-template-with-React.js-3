@@ -1,0 +1,40 @@
+.Projects {
+  background-color: #000;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.Projects h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.Projects__row-1,
+.Projects__row-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Projects__row-1 div,
+.Projects__row-2 div {
+  overflow: hidden;
+  cursor: pointer;
+  height: 30rem;
+}
+
+.Projects__row-1 div img,
+.Projects__row-2 div img {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: all 0.4s ease;
+}
+
+.Projects__row-1 div img:hover,
+.Projects__row-2 div img:hover {
+  transform: scale(1.1);
+  filter: none;
+}
