@@ -1,0 +1,86 @@
+.Footer {
+  background-color: #000;
+  height: 3.5rem;
+}
+
+.Footer-container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer-container a {
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.Footer-container a:hover {
+  text-decoration: underline;
+}
+
+.Footer-col-right {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer-col-right--icons {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer-col-right--icons div {
+  cursor: pointer;
+}
+
+.Footer-col-right--icons div i {
+  color: #fff;
+}
+
+.icon-1 {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+.icon-1:hover {
+  background-color: #00acee;
+}
+
+.icon-2 {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+.icon-2:hover {
+  background-color: #4267b2;
+}
+
+.icon-3 {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+.icon-3:hover {
+  background-color: #971a8d;
+}

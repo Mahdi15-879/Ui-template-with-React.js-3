@@ -8,6 +8,7 @@ import Clients from "./Clients";
 import Abilities from "./Abilities";
 import Touch from "./Touch";
 import SocialMedia from "./SocialMedia";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Abilities />
       <Touch />
       <SocialMedia />
+      <Footer />
     </div>
   );
 }
