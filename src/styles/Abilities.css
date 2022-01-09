@@ -1,0 +1,59 @@
+.Abilities {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.Abilities h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.Abilities-item {
+  width: 80%;
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 4rem;
+  align-items: start;
+}
+
+.Ability {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-row-gap: 1rem;
+  grid-column-gap: 2rem;
+}
+
+.Ability span {
+  width: 4.5rem;
+  height: 4.5rem;
+  grid-row: 1 / span 2;
+  border: 1px solid rgba(255, 255, 255, 0.233);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Ability span i {
+  color: #fff;
+}
+
+.Ability h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.Ability p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+}

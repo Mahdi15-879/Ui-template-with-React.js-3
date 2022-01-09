@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import Navbar from './Navbar';
-import Header from './Header';
-import Projects from './Projects';
-import Profile from './Profile';
-import Clients from './Clients';
+import Navbar from "./Navbar";
+import Header from "./Header";
+import Projects from "./Projects";
+import Profile from "./Profile";
+import Clients from "./Clients";
+import Abilities from "./Abilities";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Projects />
       <Profile />
       <Clients />
+      <Abilities />
     </div>
   );
 }
