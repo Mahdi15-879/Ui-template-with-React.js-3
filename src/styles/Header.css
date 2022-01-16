@@ -16,7 +16,7 @@
 }
 
 .Header {
-  height: 90vh;
+  height: 100vh;
   position: relative;
   display: grid;
   place-content: center;

@@ -57,6 +57,10 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .SocialMedia h2 {
+    margin: 0 2rem 4rem 2rem;
+  }
+
   .SocialMedia__icons {
     width: 65%;
   }
