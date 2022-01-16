@@ -11,30 +11,26 @@
   margin-bottom: 5rem;
 }
 
-.Projects__row-1,
-.Projects__row-2 {
+.Projects__items {
   width: 100%;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
-.Projects__row-1 div,
-.Projects__row-2 div {
+.Projects__items div {
   overflow: hidden;
   cursor: pointer;
-  height: 30rem;
 }
 
-.Projects__row-1 div img,
-.Projects__row-2 div img {
+.Projects__items div img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   filter: brightness(70%);
   transition: all 0.4s ease;
 }
 
-.Projects__row-1 div img:hover,
-.Projects__row-2 div img:hover {
+.Projects__items div img:hover {
   transform: scale(1.1);
   filter: none;
 }

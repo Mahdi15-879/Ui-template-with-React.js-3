@@ -11,45 +11,41 @@ const Projects = () => {
       </h2>
 
       <div className="Projects__items">
-        <div className="Projects__row-1">
-          <div>
-            <img
-              src={require("./img/Showcase-06-705x705.png")}
-              alt="Projects item"
-            />
-          </div>
-          <div>
-            <img
-              src={require("./img/Showcase-05-705x705.png")}
-              alt="Projects item"
-            />
-          </div>
-          <div>
-            <img
-              src={require("./img/Showcase-04-705x705.png")}
-              alt="Projects item"
-            />
-          </div>
+        <div>
+          <img
+            src={require("./img/Showcase-06-705x705.png")}
+            alt="Projects item"
+          />
         </div>
-        <div className="Projects__row-2">
-          <div>
-            <img
-              src={require("./img/Showcase-03-705x705.png")}
-              alt="Projects item"
-            />
-          </div>
-          <div>
-            <img
-              src={require("./img/Showcase-02-705x705.png")}
-              alt="Projects item"
-            />
-          </div>
-          <div>
-            <img
-              src={require("./img/Showcase-01-705x705.png")}
-              alt="Projects item"
-            />
-          </div>
+        <div>
+          <img
+            src={require("./img/Showcase-05-705x705.png")}
+            alt="Projects item"
+          />
+        </div>
+        <div>
+          <img
+            src={require("./img/Showcase-04-705x705.png")}
+            alt="Projects item"
+          />
+        </div>
+        <div>
+          <img
+            src={require("./img/Showcase-03-705x705.png")}
+            alt="Projects item"
+          />
+        </div>
+        <div>
+          <img
+            src={require("./img/Showcase-02-705x705.png")}
+            alt="Projects item"
+          />
+        </div>
+        <div>
+          <img
+            src={require("./img/Showcase-01-705x705.png")}
+            alt="Projects item"
+          />
         </div>
       </div>
     </div>

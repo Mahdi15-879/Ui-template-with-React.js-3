@@ -88,3 +88,15 @@
   border-radius: 3px;
   padding: 0.8rem 2.5rem;
 }
+
+@media only screen and (max-width: 992px) {
+  .Touch form {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Touch form {
+    width: 85%;
+  }
+}

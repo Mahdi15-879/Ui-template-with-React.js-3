@@ -8,13 +8,13 @@ const SocialMedia = () => {
       <h2>Or follow me on Dribbble, Facebook or Twitter</h2>
 
       <div className="SocialMedia__icons">
-        <span>
+        <span className="SocialMedia__icon-1">
           <i class="fab fa-facebook-f fa-3x"></i>
         </span>
-        <span>
+        <span className="SocialMedia__icon-2">
           <i class="fab fa-dribbble fa-3x"></i>
         </span>
-        <span>
+        <span className="SocialMedia__icon-3">
           <i class="fab fa-twitter fa-3x"></i>
         </span>
       </div>

@@ -50,3 +50,20 @@
 .Profile__projects-num span p {
   font-weight: 600;
 }
+
+@media only screen and (max-width: 992px) {
+  .Profile__projects-num {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Profile__projects-num {
+    width: 85%;
+  }
+
+  .Profile h2,
+  .Profile__paragraph {
+    margin: 0 2rem 2rem 2rem;
+  }
+}

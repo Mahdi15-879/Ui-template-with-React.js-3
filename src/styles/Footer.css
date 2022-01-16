@@ -22,14 +22,16 @@
 }
 
 .Footer-col-right {
-  width: 20%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.Footer-col-right--link {
+  margin-right: 2.5rem;
+}
+
 .Footer-col-right--icons {
-  width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,4 +85,14 @@
 
 .icon-3:hover {
   background-color: #971a8d;
+}
+
+@media only screen and (max-width: 768px) {
+  .Footer-container {
+    width: 95%;
+  }
+
+  .Footer-col-right--link {
+    margin-right: 1.5rem;
+  }
 }

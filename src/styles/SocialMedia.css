@@ -30,8 +30,40 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.SocialMedia__icons span:hover {
+  transform: scale(1.2);
+}
+
+.SocialMedia__icon-1:hover {
+  background-color: #4267b2;
+  border-color: #4267b2;
+}
+
+.SocialMedia__icon-2:hover {
+  background-color: #971a8d;
+  border-color: #971a8d;
+}
+
+.SocialMedia__icon-3:hover {
+  background-color: #00acee;
+  border-color: #00acee;
 }
 
 .SocialMedia__icons span i {
   color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .SocialMedia__icons {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .SocialMedia__icons {
+    width: 85%;
+  }
 }

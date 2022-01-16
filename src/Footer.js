@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
 
         <div className="Footer-col-right">
-          <div>
+          <div className="Footer-col-right--link">
             <a href="https://kriesi.at/privacy-policy">Privacy Policy</a>
           </div>
 

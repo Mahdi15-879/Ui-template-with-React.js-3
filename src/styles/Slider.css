@@ -94,13 +94,20 @@
   font-size: 0.9rem;
 }
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 992px) {
   .container-slider {
-    width: 80%;
-    overflow: visible;
+    width: 90%;
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-slider {
+    width: 100%;
+    height: 25rem;
   }
 
   .btn-slide {
     display: none;
   }
-} */
+}
